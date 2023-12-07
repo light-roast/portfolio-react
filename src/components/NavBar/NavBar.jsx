@@ -1,20 +1,35 @@
-import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
+import "./NavBar.css"
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const NavBar = () => {
+  
+
+ 
   return (
-    <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="/">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/projects">Projects</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+  <>
+  <nav className="nav">
+  <input type="checkbox" id="nav-check" />
+  <div className="nav-header">
+    <div className="nav-title">
+      Daniel Echeverri
+    </div>
+  </div>
+  <div className="nav-btn">
+    <label htmlFor="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  
+  <div className="nav-links">
+    <a href="/">Home</a>
+    <a href="/projects">Projects</a>
+    <a href="/contact">Contact</a>
+  </div>
+</nav>
+</>
   );
 };
 

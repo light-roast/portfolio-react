@@ -7,11 +7,10 @@ import Projects from './components/Projects/Projects';
 
 function App() {
   
-  return (
-    <>
-    <NavBar />
+  return (    
     <Router>
-      <>        
+      <> 
+        <NavBar/>       
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
@@ -19,7 +18,6 @@ function App() {
         </Routes>
       </>
     </Router>
-    </>
   );
 }
 
