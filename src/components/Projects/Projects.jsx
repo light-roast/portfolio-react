@@ -1,5 +1,7 @@
 function Projects() {
-    return ( <></> );
+    return ( <>
+    <p>Projects</p>
+    </> );
 }
 
 export default Projects;
