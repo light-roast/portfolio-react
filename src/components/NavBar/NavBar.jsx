@@ -1,7 +1,5 @@
 
 import "./NavBar.css"
-import { FaBars, FaTimes } from 'react-icons/fa';
-
 const NavBar = () => {
   
 
@@ -12,7 +10,7 @@ const NavBar = () => {
   <input type="checkbox" id="nav-check" />
   <div className="nav-header">
     <div className="nav-title">
-      Daniel Echeverri
+      D.E/Portfolio
     </div>
   </div>
   <div className="nav-btn">

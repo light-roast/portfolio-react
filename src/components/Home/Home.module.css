@@ -1,0 +1,161 @@
+    main {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    background-color: #94323a; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for better appearance */
+    font-size: 16px; /* Font size */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Add cursor pointer on hover */
+    
+    }
+
+
+    button:hover {
+    background-color: #501b1f; /* Darker green on hover */
+    }
+  
+  .firstSection {    
+    margin-top: 7%;
+    flex-basis: 35%;
+    flex-shrink: 2;
+    
+  }
+
+  .secondSection {
+    
+    width: 33%;
+  }
+
+  span {
+    color: var(--mainColorL)
+  }
+  
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+    color: #40ACFF;
+  }
+
+  h3 {
+    font-size: 2.3rem;
+    color: #6B8A94;
+  }
+  
+  .img {
+    width: 100%;
+    min-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    background-color: var(--mainColorL);
+  }
+
+  article {
+    margin-top: 2rem;
+    background-color: var(--mainColor);
+    width: 100%;
+    display: flex;
+    flex-direction: row; /* Horizontal layout */
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .sectionA{
+    width: 60%;
+  }
+
+  .sectionA h1 {
+    color: var(--textColor);
+    text-align: right;
+    margin-right: 3rem;
+  }
+
+  .sectionA h3 {
+    color: var(--textColor);
+    text-align: justify;
+    padding: 5rem;
+    
+    margin: 1rem;
+    font-size: 2rem;
+  }
+
+  .sectionB {
+   width: 40%;
+
+  }
+
+  .devImg {
+    width: 100%;
+    height: auto;
+    
+  }
+
+  @media (max-width:1000px) {
+    article {
+        flex-direction: column;
+        align-items:center;
+    }
+    .sectionA{
+        width: 100%;
+      }
+    
+      .sectionB {
+        width: 60%;
+      }
+
+      .sectionA h1 {
+        text-align: center;  
+      }
+  }
+
+  @media (max-width:700px) {
+    main, article {
+        flex-direction: column;
+        align-items:center;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 4rem;
+      }
+    
+      h2 {
+        font-size: 3rem;
+        color: #40ACFF;
+      }
+    
+      h3 {
+        font-size: 1.8rem;
+        color: #6B8A94;
+      }
+      .secondSection {
+       width: 45%
+      }
+
+    .sectionA h1 {
+        text-align: center;  
+      }
+
+      .img {
+        margin-top: 4rem;
+      }
+  }
