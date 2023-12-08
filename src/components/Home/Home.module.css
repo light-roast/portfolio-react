@@ -9,7 +9,10 @@
 
   a {
     text-decoration: none;
+    color: var(--textColor);
   }
+
+  
 
   button {
     background-color: #94323a; /* Green background */
@@ -81,7 +84,7 @@
 
   .sectionA h1 {
     color: var(--textColor);
-    text-align: right;
+    text-align: center;
     margin-right: 3rem;
   }
 
@@ -102,7 +105,7 @@
   .devImg {
     width: 100%;
     height: auto;
-    
+    border-radius: 5%;
   }
 
   @media (max-width:1000px) {

@@ -8,10 +8,10 @@ function Footer() {
             <i className="far fa-envelope"></i> echeverri121@gmail.com 
         </a>
         <a className="link" href="https://github.com/light-roast" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-github"></i> GitHub @light-roast.
+            <i className="fab fa-github"></i> @light-roast.
         </a>
         <a className="link" href="https://www.linkedin.com/in/daniel-echeverri-llano-b78330253/" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-linkedin"></i> Linkedin account.
+                <i className="fab fa-linkedin"></i> Linkedin.
         </a>
     </footer>
     </> 

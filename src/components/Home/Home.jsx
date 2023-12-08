@@ -22,8 +22,9 @@ function Home() {
                 <img src={devimage} className={styles.devImg}/>
                 </section>
                 <section className={styles.sectionA}>
-                    <h1>About me</h1>
-                    <h3>I am a former teacher who is passionate about software development. I hold a Front-end Engineering certification from Codecademy, establishing a strong foundation in web development technologies. Additionally, I possess certifications in backend technologies and various programming languages including Python and C#. I consider myself a dedicated individual who enjoys learning new things, excels as a team player, and demonstrates organization and responsibility. My current objective is to secure a challenging and dynamic position where I can share my knowledge while continually acquiring new experience and skills.</h3>
+                    <h1><u>About me</u></h1>
+                    
+<h3>I am a former teacher with a passion for software development. I hold a Front-end Engineering certification from Codecademy, establishing a robust foundation in web development technologies. Additionally, I am certified in backend technologies and proficient in various programming languages, including Python and C#. I consider myself a dedicated individual who enjoys learning new things, excels as a team player, and demonstrates strong organizational skills and responsibility. My current objective is to secure a challenging and dynamic position where I can share my knowledge while continually acquiring new experiences and skills. On this portfolio website, you can find an overview of all the <a href='/projects'><u>projects</u></a> I have successfully completed.</h3>
                 </section>
             </article>     
         </>
