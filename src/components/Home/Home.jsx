@@ -1,4 +1,4 @@
-import homeImage from '../../assets/me.png'
+import homeImage from '../../assets/meL.png'
 import devimage from '../../assets/is.jpg'
 import styles from './Home.module.css'
 function Home() {
