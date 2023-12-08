@@ -10,7 +10,7 @@ const NavBar = () => {
   <input type="checkbox" id="nav-check" />
   <div className="nav-header">
     <div className="nav-title">
-      D.E/Portfolio
+      My Portfolio
     </div>
   </div>
   <div className="nav-btn">
