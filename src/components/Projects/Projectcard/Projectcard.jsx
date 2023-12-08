@@ -5,7 +5,7 @@ function Projectcard({project}) {
     <>
         <div className="cards">
                     <div className='image-container'>
-                        <img src={project.image_url}/>
+                        <img src={project.imageurl}/>
                     </div>
                     <h4 id="name">
                         {project.name}
