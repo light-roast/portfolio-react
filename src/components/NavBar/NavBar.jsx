@@ -1,33 +1,60 @@
+import { useState } from "react";
+import "./NavBar.css";
+import { Link } from "react-router-dom";
 
-import "./NavBar.css"
 const NavBar = () => {
-  
+  const [activeLink, setActiveLink] = useState("");
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
- 
+  const handleCLick = (sortOption) => {
+    setActiveLink(sortOption);
+    closeNav(); // Close the navigation menu when a link is clicked
+  };
+
+  const toggleNav = () => {
+    setIsNavOpen(!isNavOpen);
+  };
+
+  const closeNav = () => {
+    setIsNavOpen(false);
+  };
+
   return (
-  <>
-  <nav className="nav">
-  <input type="checkbox" id="nav-check" />
-  <div className="nav-header">
-    <div className="nav-title">
-      My Portfolio
-    </div>
-  </div>
-  <div className="nav-btn">
-    <label htmlFor="nav-check">
-      <span></span>
-      <span></span>
-      <span></span>
-    </label>
-  </div>
-  
-  <div className="nav-links">
-    <a href="/">Home</a>
-    <a href="/projects">Projects</a>
-    <a href="/contact">Contact</a>
-  </div>
-</nav>
-</>
+    <>
+      <nav className={`nav ${isNavOpen ? "nav-open" : ""}`}>
+        <input type="checkbox" id="nav-check" checked={isNavOpen} onChange={toggleNav} />
+        <div className="nav-header">
+          <div className="nav-title">My Portfolio</div>
+        </div>
+        <div className="nav-btn">
+          <label htmlFor="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+
+        <div className="nav-links">
+          <Link to="/" onClick={() => handleCLick('home')} className={activeLink === 'home' ? 'active' : 'inactive'}>
+            Home
+          </Link>
+          <Link
+            to="/projects"
+            onClick={() => handleCLick('projects')}
+            className={activeLink === 'projects' ? 'active' : 'inactive'}
+          >
+            Projects
+          </Link>
+          <Link
+            to="/contact"
+            onClick={() => handleCLick('contact')}
+            className={activeLink === 'contact' ? 'active' : 'inactive'}
+          >
+            Contact
+          </Link>
+        </div>
+      </nav>
+    </>
   );
 };
 

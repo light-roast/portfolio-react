@@ -3,6 +3,7 @@ import projects from "./Projectcard/Projects";
 import "./Projects.css"
 
 function Projects() {
+    
     return (
         <section id="mainSection">
                 {
