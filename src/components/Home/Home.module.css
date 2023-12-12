@@ -4,7 +4,10 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;    
+    justify-content: space-around; 
+    align-items: center;
+    height: fit-content; 
+ 
   }
 
   a {
@@ -35,7 +38,7 @@
     }
   
   .firstSection {    
-    margin-top: 7%;
+    margin-top: 1%;
     flex-basis: 35%;
     flex-shrink: 2;
     
@@ -73,32 +76,33 @@
   }
 
   article {
-    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
     background-color: var(--mainColor);
     width: 100%;
     display: flex;
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around;
     align-items: center;
+    height: fit-content;
   }
 
   .sectionA{
     width: 60%;
+    margin: 0;
   }
 
   .sectionA h1 {
     color: var(--textColor);
     text-align: center;
-    margin-right: 3rem;
   }
 
   .sectionA h3 {
     color: var(--textColor);
     text-align: justify;
-    padding: 5rem;
-    
-    margin: 1rem;
-    font-size: 2rem;
+    padding: 5rem;    
+    margin: .7rem;
+    font-size: 2.5rem;
   }
 
   .sectionB {
@@ -114,15 +118,17 @@
 
   @media (max-width:1000px) {
     article {
-        flex-direction: column;
+        flex-direction:column-reverse;
         align-items:center;
+        justify-items: center;
     }
-    .sectionA{
-        width: 100%;
+    .sectionA h3 {
+        width: auto;
+        padding: 1rem;
       }
     
       .sectionB {
-        width: 60%;
+        width: 45%;
       }
 
       .sectionA h1 {
@@ -130,20 +136,31 @@
       }
 
       .img {
-        margin-top: 2.5rem;
+        margin-top: 2rem;
+      }
+
+      .sectionA {
+        width: 90%;
       }
   }
 
-  @media (max-width:1000px) {
-    .img {
-      margin-top: 5rem;
-    }
-  }
+ 
 
   @media (max-width:700px) {
-    main, article {
+    main {
         flex-direction: column;
         align-items:center;
+    }
+
+    article {
+      flex-direction:column-reverse;
+      align-items:center;
+      justify-items: center;
+  }
+    .sectionA{
+      width: 100%;
+      padding: 1rem;
+      border-bottom: 0;
     }
 
     button {
@@ -151,7 +168,7 @@
         margin: 0 auto;
     }
 
-    h1 {
+    .sectionA h1 {
         font-size: 4rem;
       }
     
@@ -173,6 +190,10 @@
       }
 
       .img {
-        margin-top: 4rem;
+        margin-top: 3rem;
+      }
+
+      .sectionB {
+        width: 60%;
       }
   }
