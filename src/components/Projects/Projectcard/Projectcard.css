@@ -2,6 +2,7 @@ img {
     height: 100%;
     width: 100%;
     object-fit:cover;
+    border-radius: 5%;
     }
 
 .image-container {
@@ -17,16 +18,16 @@ img {
 
 
 .cards {
-    min-width: 50%;
     margin: 1.9rem;
-    border: rgb(141, 135, 135) solid 1px;
+    border: rgb(141, 135, 135) solid 2git px;
+    
     
     
 }
 
 #name {
-    margin-top: 1.9rem;
-    margin-bottom: 1.5rem;
+    margin-top: .9rem;
+    margin-bottom: .5rem;
     text-align: left;
     font-size: 1.7rem;
 }
