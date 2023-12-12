@@ -1,7 +1,15 @@
 import homeImage from '../../assets/meL.png'
 import devimage from '../../assets/is.jpg'
 import styles from './Home.module.css'
+import { useNavigate } from 'react-router-dom'
+
+
 function Home() {
+    const navigate = useNavigate();
+
+    function handleClick() {
+      navigate('/projects');
+    }
     return ( 
         <>
             <main className={styles.main}>
@@ -24,7 +32,7 @@ function Home() {
                 <section className={styles.sectionA}>
                     <h1><u>About me</u></h1>
                     
-<h3>I am a former teacher with a passion for software development. I hold a Front-end Engineering certification from Codecademy, establishing a robust foundation in web development technologies. Additionally, I am certified in backend technologies and proficient in various programming languages, including Python and C#. I consider myself a dedicated individual who enjoys learning new things, excels as a team player, and demonstrates strong organizational skills and responsibility. My current objective is to secure a challenging and dynamic position where I can share my knowledge while continually acquiring new experiences and skills. On this portfolio website, you can find an overview of all the <a href='/projects'><u>projects</u></a> I have successfully completed.</h3>
+<h3>I am a former teacher with a passion for software development. I hold a Front-end Engineering certification from Codecademy, establishing a robust foundation in web development technologies. Additionally, I am certified in backend technologies and proficient in various programming languages, including Python and C#. I consider myself a dedicated individual who enjoys learning new things, excels as a team player, and demonstrates strong organizational skills and responsibility. My current objective is to secure a challenging and dynamic position where I can share my knowledge while continually acquiring new experiences and skills. On this portfolio website, you can find an overview of all the <u className={styles.u} onClick={handleClick}>projects</u> I have successfully completed.</h3>
                 </section>
             </article>     
         </>

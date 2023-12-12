@@ -3,14 +3,14 @@ import './Footer.css'
 function Footer() {
     return ( <>
     <footer>
-        <p>+573128985616 <i className="fab fa-whatsapp"></i></p>
-        <a className="link" href="mailto:echeverri121@example.com" target="_blank" rel="noopener noreferrer">
+        <p id="cero"><i className="fab fa-whatsapp"></i>+573128985616</p>
+        <a id="uno" className="link" href="mailto:echeverri121@example.com" target="_blank" rel="noopener noreferrer">
             <i className="far fa-envelope"></i> echeverri121@gmail.com 
         </a>
-        <a className="link" href="https://github.com/light-roast" target="_blank" rel="noopener noreferrer">
+        <a id="dos" className="link" href="https://github.com/light-roast" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github"></i> @light-roast.
         </a>
-        <a className="link" href="https://www.linkedin.com/in/daniel-echeverri-llano-b78330253/" target="_blank" rel="noopener noreferrer">
+        <a id="tres" className="link" href="https://www.linkedin.com/in/daniel-echeverri-llano-b78330253/" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin"></i> Linkedin.
         </a>
     </footer>

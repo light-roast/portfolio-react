@@ -12,6 +12,10 @@
     color: var(--textColor);
   }
 
+  .u:hover{
+    cursor: pointer;
+  }
+
   
 
   button {
@@ -124,6 +128,16 @@
       .sectionA h1 {
         text-align: center;  
       }
+
+      .img {
+        margin-top: 2.5rem;
+      }
+  }
+
+  @media (max-width:1000px) {
+    .img {
+      margin-top: 5rem;
+    }
   }
 
   @media (max-width:700px) {
