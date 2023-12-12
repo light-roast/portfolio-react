@@ -18,7 +18,7 @@ img {
 #info {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3,1fr);
-    
+    font-size: 1.1rem;
 
 }
 

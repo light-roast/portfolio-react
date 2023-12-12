@@ -14,7 +14,7 @@ function Projectcard({project}) {
                         
                             <p id="one">Technology stack</p>
                             <p id="two">GitHub repository URL</p>
-                            <p id="three">Live Site URL</p>
+                            {project.livelink ? (<p id="three">Live Site URL</p>) : <p id="three"></p>}
                         
                         
                             <h4 id="four" className="category">
@@ -23,7 +23,7 @@ function Projectcard({project}) {
                             <a id="five" href={project.gitlink} className="category">
                                 <i className="fab fa-github"></i>GitHub.
                             </a>
-                            {project.livelink ? (<a id="six" className="category" href={project.livelink}>Live site</a>) : null}                          
+                            {project.livelink ? (<a id="six" className="category" href={project.livelink}>Live site</a>) : <a id="six"></a>}                          
                         
                     </div>
                 </div>
