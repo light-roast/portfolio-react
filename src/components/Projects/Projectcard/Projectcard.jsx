@@ -12,19 +12,18 @@ function Projectcard({project}) {
                     </h4>
                     <div id="info">
                         
-                            <p id="one">Technology stack:</p>
-                            <p id="two">GitHub repo:</p>
-                            <p id="three">Live Site URL:</p>
+                            <p id="one">Technology stack</p>
+                            <p id="two">GitHub repository URL</p>
+                            <p id="three">Live Site URL</p>
                         
                         
                             <h4 id="four" className="category">
                                 {project.stack}
                             </h4>
-                            <p id="five" className="category">
-                                {project.gitlink}
-                            </p>
-                            <p id="six">{project.livelink}</p>
-
+                            <a id="five" href={project.gitlink} className="category">
+                                <i className="fab fa-github"></i>GitHub.
+                            </a>
+                            {project.livelink ? (<a id="six" className="category" href={project.livelink}>Live site</a>) : null}                          
                         
                     </div>
                 </div>
