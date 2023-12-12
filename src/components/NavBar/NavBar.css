@@ -43,8 +43,8 @@
 }
 
 .nav > .nav-links > Link:hover, a:hover {
-  background-color: white;
-  color: var(--mainColor);
+  background-color: var(--secondaryColor);
+  color: var(--textColor);
 }
 
 .nav > #nav-check {

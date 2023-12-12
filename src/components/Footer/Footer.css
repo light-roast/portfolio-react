@@ -11,6 +11,7 @@ footer {
     color: var(--textColor);
     padding: .5rem;
     text-align: center;
+    z-index: 999;
 }
 
 footer p {
@@ -20,13 +21,13 @@ footer p {
 .link {
     color: var(--textColor);
     text-decoration: none;
-    display: block;
     margin-top: 10px;
     width:fit-content;
 }
 
 .link:hover {
-    color: var(--secondaryColor);
+    background-color: var(--mainColor);
+    color: var(--textColor);
 }
 
 i {

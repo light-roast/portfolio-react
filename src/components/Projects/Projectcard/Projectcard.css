@@ -115,10 +115,27 @@ h4 {
     color: var(--mainColor);
 }
 
-.card {
+@keyframes cards {
+    from {
+        opacity: 0;
+        transform: translate(0, 100px);
+    }
+    50% {
+        opacity: 0.1;
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+.cards {
+    animation: cards .3s ease-in-out; /* Adjust the duration and timing function as needed */
+}
+.cards {
     position: relative;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle box shadow */
   }
   
   .cards:hover {
@@ -134,4 +151,5 @@ h4 {
     opacity: 1;
     transition: opacity 0.3s ease-in-out;
   }
+  
 
