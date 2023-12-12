@@ -11,21 +11,21 @@ function Projectcard({project}) {
                         {project.name}
                     </h4>
                     <div id="info">
-                        <section className='left'>
-                            <p>Technology stack:</p>
-                            <p>GitHub repo:</p>
-                            <p>Live Site URL:</p>
-                        </section>
-                        <section className='right'>
-                            <h4 className="category">
+                        
+                            <p id="one">Technology stack:</p>
+                            <p id="two">GitHub repo:</p>
+                            <p id="three">Live Site URL:</p>
+                        
+                        
+                            <h4 id="four" className="category">
                                 {project.stack}
                             </h4>
-                            <h5 className="category">
+                            <p id="five" className="category">
                                 {project.gitlink}
-                            </h5>
-                            <p>{project.livelink}</p>
+                            </p>
+                            <p id="six">{project.livelink}</p>
 
-                        </section>
+                        
                     </div>
                 </div>
     </> 
