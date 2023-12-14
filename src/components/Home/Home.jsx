@@ -22,7 +22,7 @@ function Home() {
                     </a>
                 </section>
                 <section className={styles.secondSection}>
-                <img className={styles.img} src={homeImage} alt='A foto of me: Daniel Echeverri'></img>
+                <img className={styles.img} src={homeImage} alt='A foto of me: Daniel Echeverri' id="levitating-img"></img>
                 </section>
             </main> 
             <article className={styles.article}>

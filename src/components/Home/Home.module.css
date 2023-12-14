@@ -10,6 +10,18 @@
  
   }
 
+  @keyframes levitate {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Adjust the displacement as needed */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
   a {
     text-decoration: none;
     color: var(--textColor);
@@ -73,6 +85,9 @@
     height: auto;
     border-radius: 50%;
     background-color: var(--mainColorL);
+    animation: levitate 4s ease-in-out infinite; /* Adjust the duration and timing function as needed */
+    margin-bottom: 20px; /* Space for the shadow */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Shadow styling */
   }
 
   article {
