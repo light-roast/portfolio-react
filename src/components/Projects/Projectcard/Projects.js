@@ -9,6 +9,14 @@ const projects = [
     },
     {
         id: 2,
+        imageurl: 'src/assets/projects/3.webP',
+        name: 'Todo list manager',
+        stack: 'React.',
+        gitlink: 'https://github.com/light-roast/TodoManager',
+        livelink: 'https://todos-manager-lightroast.netlify.app/' 
+    },
+    {
+        id: 3,
         imageurl: 'src/assets/projects/2.webP',
         name: 'Tea Cozy / Flexbox learning',
         stack: 'HTML/CSS',
