@@ -21,7 +21,7 @@ function Home() {
                     <h3>Hi, my name is </h3>
                     <h1>Daniel <span>Echeverri</span></h1>
                     <h2>I&apos;m a developer</h2>
-                    <a href="https://drive.google.com/file/d/1ya_VJkUKz_x8P1SQcczQJRQU-fCjTdes/view?usp=sharing" target="_blank" rel="noreferrer">
+                    <a className={styles.but} href="https://drive.google.com/file/d/1ya_VJkUKz_x8P1SQcczQJRQU-fCjTdes/view?usp=sharing" target="_blank" rel="noreferrer">
                         <button type="button">Download CV</button>
                     </a>
                 </section>

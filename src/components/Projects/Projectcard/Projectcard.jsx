@@ -1,4 +1,5 @@
 import "./Projectcard.css";
+import PropTypes from 'prop-types';
 
 function Projectcard({project}) {
     return ( 
@@ -30,5 +31,15 @@ function Projectcard({project}) {
     </> 
     );
 }
+
+Projectcard.propTypes = {
+    project: PropTypes.shape({
+        imageurl: PropTypes.string.isRequired,
+        name: PropTypes.string.isRequired,
+        stack: PropTypes.string.isRequired,
+        gitlink: PropTypes.string.isRequired,
+        livelink: PropTypes.string,
+    }).isRequired,
+};
 
 export default Projectcard;

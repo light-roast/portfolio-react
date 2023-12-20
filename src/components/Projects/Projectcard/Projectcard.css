@@ -1,3 +1,4 @@
+
 img {
     height: 100%;
     width: 100%;
@@ -113,6 +114,11 @@ h4 {
 
 .category {
     color: var(--mainColor);
+}
+
+.category:hover {
+    background-color: var(--mainColorL);
+    color: white;
 }
 
 @keyframes cards {
