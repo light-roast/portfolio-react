@@ -9,35 +9,38 @@ function Contact() {
   }
   return (
       <form onSubmit={handleSubmit} className={styles.form}>
-      <label htmlFor='name' className={styles.label}>Name</label>
+       <label htmlFor='name' className={styles.label}>Name:</label>
       <input
         id="name"
         type="text"
-        name="name">
+        name="name"
+        required>
       </input>
       <label htmlFor="email" className={styles.label}>
-        Email Address
+        Email Address:
       </label>
       <input
         id="email"
         type="email" 
         name="email"
+        required
       />
       <ValidationError 
         prefix="Email" 
         field="email"
         errors={state.errors}
       />
-      <label htmlFor="subject" className={styles.label}>Subject</label>
+      <label htmlFor="subject" className={styles.label}>Subject:</label>
       <input
       id="subject"
       type="text" 
       name="subject">
       </input>
-      <label>Message:</label>
+      <label className={styles.label}>Message:</label>
       <textarea
         id="message"
         name="message"
+        required
       />
       <ValidationError 
         prefix="Message" 

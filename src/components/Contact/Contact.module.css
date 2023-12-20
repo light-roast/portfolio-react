@@ -1,22 +1,41 @@
 .label {
-    color: black;
+    color: white;
     margin-bottom: .5rem;
 }
 
 
 .form {
+    background-color: var(--mainColorL);
     display: flex;
     flex-direction: column;
-    padding: 4rem 1rem;
+    padding: 3rem 1rem;
     margin: 7rem auto;
     max-width: 600px;
+    border-radius: 1%;
 }
 
 .form input, textarea {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     padding: 1rem 1.8rem;
     font-size: 1.3rem;
-    background-color: var(--mainColorL);
-    color: var(--textColor);
+    background-color: var(--textColor);
+    color: var(--mainColor);
     border-color: var(--secondaryColor);
 }
+
+.form textarea {
+    resize: vertical;
+}
+
+.form button{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.successMessage {
+    margin: 26.5rem auto; 
+    font-size: large;
+    text-align: center; 
+    max-width: 100%; 
+}
+
