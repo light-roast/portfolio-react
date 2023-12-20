@@ -1,3 +1,8 @@
+.contact {
+    text-align: center;
+    color: var(--mainColor)
+}
+
 .label {
     color: white;
     margin-bottom: .5rem;
@@ -10,8 +15,8 @@
     background-color: var(--mainColorL);
     display: flex;
     flex-direction: column;
-    padding: 3rem 1rem;
-    margin: 7rem auto;
+    padding: 4rem 1rem;
+    margin: 3rem auto;
     max-width: 600px;
     border-radius: 1%;
 }

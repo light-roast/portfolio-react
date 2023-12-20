@@ -8,6 +8,8 @@ function Contact() {
       return <p className={styles.successMessage}>Thank you for contacting me. I will be replying soon to the email you provided.</p>
   }
   return (
+    <>
+      <h2 className={styles.contact}>Contact me!</h2>
       <form onSubmit={handleSubmit} className={styles.form}>
        <label htmlFor='name' className={styles.label}>Name:</label>
       <input
@@ -51,6 +53,7 @@ function Contact() {
         Submit
       </button>
     </form>
+    </>
   );
 }
 
