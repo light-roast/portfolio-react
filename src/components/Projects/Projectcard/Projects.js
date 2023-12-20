@@ -17,6 +17,14 @@ const projects = [
     },
     {
         id: 3,
+        imageurl: 'src/assets/projects/4.webP',
+        name: 'CRUD APP/JSON SERVER API',
+        stack: 'React, JSON Server.',
+        gitlink: 'https://github.com/light-roast/crudapp',
+ 
+    },
+    {
+        id: 4,
         imageurl: 'src/assets/projects/2.webP',
         name: 'Tea Cozy / Flexbox learning',
         stack: 'HTML/CSS',
@@ -24,6 +32,7 @@ const projects = [
         livelink: 'https://light-roast.github.io/TeaCozy/'
 
     }
+
    
 ];
 
