@@ -1,0 +1,33 @@
+.creativeSkillsSection {
+    width: 100%;
+    background-color: var(--textColor);
+    padding: 2rem;
+    text-align: center;
+}
+
+.skillsIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.csharp {
+  color: var(--mainColor);
+  font-size: 3rem;
+}
+
+.express {
+    font-size: 2rem; 
+    color: var(--mainColor);
+}
+
+.skills {
+    font-size: 3.5rem; 
+    color: var(--mainColor);
+}
+.skillIcon {
+    font-size: 4rem;
+    margin: 1rem;
+    color: var(--mainColor);
+}
