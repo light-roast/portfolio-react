@@ -31,6 +31,15 @@ const projects = [
         gitlink: 'https://github.com/light-roast/TeaCozy/',
         livelink: 'https://light-roast.github.io/TeaCozy/'
 
+    },
+    {
+        id: 4,
+        imageurl: 'src/assets/projects/2.webP',
+        name: 'Tea Cozy / Flexbox learning',
+        stack: 'HTML/CSS',
+        gitlink: 'https://github.com/light-roast/TeaCozy/',
+        livelink: 'https://light-roast.github.io/TeaCozy/'
+
     }
 
    

@@ -1,14 +1,19 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 
-const NavBar = () => {
+const NavBar = ({navInfo}) => {
   const [activeLink, setActiveLink] = useState("");
   const [isNavOpen, setIsNavOpen] = useState(false);
 
+  useEffect(() => {
+    setActiveLink(navInfo);
+  }, [navInfo]);
+
   const handleCLick = (sortOption) => {
     setActiveLink(sortOption);
-    closeNav(); // Close the navigation menu when a link is clicked
+    closeNav(); 
   };
 
   const toggleNav = () => {
@@ -56,6 +61,10 @@ const NavBar = () => {
       </nav>
     </>
   );
+};
+
+NavBar.propTypes = {
+  navInfo: PropTypes.string.isRequired,
 };
 
 export default NavBar;

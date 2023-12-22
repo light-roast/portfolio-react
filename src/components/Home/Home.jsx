@@ -3,16 +3,24 @@ import devimage from '../../assets/is.jpg'
 import styles from './Home.module.css'
 import { useNavigate } from 'react-router-dom'
 import Skills from '../Skills/Skills';
+import PropTypes from 'prop-types';
+import { useEffect } from 'react';
 
 
-function Home() {
+function Home({setNavLink}) {
+    useEffect(() => {
+        setNavLink('home')
+    }, []);
+    
     const navigate = useNavigate();
 
     function handleClick() {
       navigate('/projects');
+      setNavLink('projects')
     }
     function handleClickC() {
         navigate('/contact');
+        setNavLink('contact')
       }
     return ( 
         <>
@@ -43,5 +51,9 @@ function Home() {
         </>
     )
 }
+
+Home.propTypes = {
+    setNavLink: PropTypes.func.isRequired,
+  };
 
 export default Home;

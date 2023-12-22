@@ -7,8 +7,8 @@
 
 .skillsIcons {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-content: space-between;
     flex-wrap: wrap;
 }
 
