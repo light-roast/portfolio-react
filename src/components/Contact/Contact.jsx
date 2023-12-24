@@ -1,6 +1,7 @@
 import { useForm, ValidationError } from '@formspree/react';
 import styles from './Contact.module.css'
 import { useEffect } from 'react';
+import PropTypes from 'prop-types';
 
 function Contact({setNavLink}) {
   const [state, handleSubmit] = useForm("xgejgbok");
@@ -60,5 +61,10 @@ function Contact({setNavLink}) {
     </>
   );
 }
+
+Contact.propTypes = {
+  setNavLink: PropTypes.func.isRequired,
+};
+
 
 export default Contact;

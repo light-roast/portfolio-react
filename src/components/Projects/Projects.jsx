@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Projectcard from "./Projectcard/Projectcard";
 import projects from "./Projectcard/Projects";
 import "./Projects.css"
+import PropTypes from 'prop-types';
 
 function Projects({setNavLink}) {
     useEffect(() => {
@@ -19,6 +20,10 @@ function Projects({setNavLink}) {
          </section>
     );    
 }
+
+Projects.propTypes = {
+    setNavLink: PropTypes.func.isRequired,
+  };
 
 export default Projects;
 

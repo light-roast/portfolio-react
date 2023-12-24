@@ -2,6 +2,10 @@ import "./Projectcard.css";
 import PropTypes from 'prop-types';
 
 function Projectcard({project}) {
+    const h4Style = {
+        display: 'inline',
+        // Add any other styles you need
+      };
     return ( 
     <>
         <div className="cards">
@@ -13,18 +17,13 @@ function Projectcard({project}) {
                     </h4>
                     <div id="info">
                         
-                            <p id="one">Technology stack</p>
-                            <p id="two">GitHub repository URL</p>
-                            {project.livelink ? (<p id="three">Live Site URL</p>) : <p id="three"></p>}
-                        
-                        
-                            <h4 id="four" className="category">
+                            <h4 id="one" className="category">
                                 {project.stack}
                             </h4>
-                            <a id="five" href={project.gitlink} className="category">
-                                <i className="fab fa-github"></i>GitHub.
+                            <a id="four" href={project.gitlink} className="category">
+                                <i className="fab fa-github"></i><h4 style={h4Style}>GitHub</h4>.
                             </a>
-                            {project.livelink ? (<a id="six" className="category" href={project.livelink}>Live site</a>) : <a className="category" id="six"></a>}                          
+                            {project.livelink ? (<h4 id="two"><a  className="category" href={project.livelink}>Live site access.</a></h4>) : null}                          
                         
                     </div>
                 </div>
