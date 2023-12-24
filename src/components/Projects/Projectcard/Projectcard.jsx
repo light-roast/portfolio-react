@@ -24,7 +24,7 @@ function Projectcard({project}) {
                             <a id="five" href={project.gitlink} className="category">
                                 <i className="fab fa-github"></i>GitHub.
                             </a>
-                            {project.livelink ? (<a id="six" className="category" href={project.livelink}>Live site</a>) : <a id="six"></a>}                          
+                            {project.livelink ? (<a id="six" className="category" href={project.livelink}>Live site</a>) : <a className="category" id="six"></a>}                          
                         
                     </div>
                 </div>

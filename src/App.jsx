@@ -17,8 +17,8 @@ function App() {
         <NavBar navInfo={navLink}/>
         <Routes>
           <Route path="/" element={<Home setNavLink={setNavLink}/>} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact setNavLink={setNavLink} />} />
+          <Route path="/projects" element={<Projects setNavLink={setNavLink}/>} />
         </Routes>
       </Router>
       <Footer />

@@ -1,9 +1,13 @@
 import { useForm, ValidationError } from '@formspree/react';
 import styles from './Contact.module.css'
+import { useEffect } from 'react';
 
-function Contact() {
+function Contact({setNavLink}) {
   const [state, handleSubmit] = useForm("xgejgbok");
-  console.log("State:", state);
+  useEffect(() => {
+    setNavLink('contact')
+// eslint-disable-next-line react-hooks/exhaustive-deps
+}, []);
   if (state.succeeded) {
       return <p className={styles.successMessage}>Thank you for contacting me. I will be replying soon to the email you provided.</p>
   }

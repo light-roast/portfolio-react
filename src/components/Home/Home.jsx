@@ -10,8 +10,9 @@ import { useEffect } from 'react';
 function Home({setNavLink}) {
     useEffect(() => {
         setNavLink('home')
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
-    
+
     const navigate = useNavigate();
 
     function handleClick() {
