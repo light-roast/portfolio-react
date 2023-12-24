@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 function Projectcard({project}) {
     const h4Style = {
         display: 'inline',
-        // Add any other styles you need
+        
       };
     return ( 
     <>
