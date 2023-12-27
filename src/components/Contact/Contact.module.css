@@ -1,6 +1,7 @@
 .contact {
     text-align: center;
-    color: var(--mainColor)
+    color: var(--mainColor);
+    margin-top: 2rem;
 }
 
 .label {
