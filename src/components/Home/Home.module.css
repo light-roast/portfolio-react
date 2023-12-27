@@ -97,19 +97,22 @@
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8); 
   }
 
-  article {
+  .article {
     padding-top: 1rem;
     padding-bottom: .5rem;
-    background-color: var(--mainColor);
     display: flex;
     flex-direction: row; 
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
-    max-width: fit-content;
     height: fit-content;
     margin: 0 auto;
+    max-width: 1024px;
   }
 
+  article {
+    width: 100%;
+    background-color: var(--mainColor);
+  }
   
   .sectionB{
     width: 40%;
@@ -119,7 +122,7 @@
 
   .sectionA{
     width: 60%;
-  
+    max-width: 1200px;
   }
 
   .sectionA h1 {
@@ -139,13 +142,12 @@
  
 
   .devImg {
-    margin: 2rem;
     width: 100%;   
     border-radius: 5%;
   }
 
   @media (max-width:1000px) {
-    article {
+    .article {
         flex-direction:column-reverse;
         align-items:center;
         justify-items: center;

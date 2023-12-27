@@ -38,14 +38,16 @@ function Home({setNavLink}) {
                 <img className={styles.img} src={homeImage} alt='A foto of me: Daniel Echeverri' id="levitating-img"></img>
                 </section>
             </main> 
-            <article className={styles.article}>
-                <section className={styles.sectionB}>
+            <article>
+                <section className={styles.article}>
+                <div className={styles.sectionB}>
                 <img src={devimage} className={styles.devImg}/>
-                </section>
-                <section className={styles.sectionA}>
+                </div>
+                <div className={styles.sectionA}>
                     <h1><u>About me</u></h1>
                     
 <h3>I am a former teacher with a passion for software development. I hold a Front-end Engineering certification from Codecademy, establishing a robust foundation in web development technologies. Additionally, I am certified in backend technologies and proficient in various programming languages, including Python and C#. I consider myself a dedicated individual who enjoys learning new things, excels as a team player, and demonstrates strong organizational skills and responsibility. My current objective is to secure a challenging and dynamic position where I can share my knowledge while continually acquiring new experiences and skills. On this portfolio website, you can find an overview of all the <u className={styles.u} onClick={handleClick}>projects</u> I have successfully completed. If you need to contact me, you can write to me <u className={styles.u} onClick={handleClickC}>here</u> or at my email address <i className="fa-solid fa-arrow-down-long"></i>.</h3>
+                </div>
                 </section>
             </article>
             <Skills/>
