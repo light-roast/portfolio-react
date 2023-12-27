@@ -1,7 +1,7 @@
 const projects = [
     {
         id: 5,
-        imageurl: 'src/assets/projects/5.webP',
+        imageurl: 'src/assets/5.webP',
         name: 'Jammming',
         stack: 'React / Spotify API',
         gitlink: 'https://github.com/light-roast/jammming',
@@ -9,7 +9,7 @@ const projects = [
     },
     {
         id: 6,
-        imageurl: 'src/assets/projects/6.webP',
+        imageurl: 'src/assets/6.webP',
         name: 'Ravenous',
         stack: 'React / Yelp API',
         gitlink: 'https://github.com/light-roast/ravenous',
@@ -17,7 +17,7 @@ const projects = [
     },
     {
         id: 1,
-        imageurl: 'src/assets/projects/1.png',
+        imageurl: 'src/assets/1.png',
         name: 'Exact Age calculator app.',
         stack: 'React.',
         gitlink: 'https://github.com/light-roast/calculateageapp',
@@ -25,7 +25,7 @@ const projects = [
     },
     {
         id: 2,
-        imageurl: 'src/assets/projects/3.webP',
+        imageurl: 'src/assets/3.webP',
         name: 'Todo list manager',
         stack: 'React.',
         gitlink: 'https://github.com/light-roast/TodoManager',
@@ -33,7 +33,7 @@ const projects = [
     },
     {
         id: 3,
-        imageurl: 'src/assets/projects/4.webP',
+        imageurl: 'src/assets/4.webP',
         name: 'CRUD APP/JSON SERVER API',
         stack: 'React, JSON Server.',
         gitlink: 'https://github.com/light-roast/crudapp',
@@ -41,7 +41,7 @@ const projects = [
     },
     {
         id: 4,
-        imageurl: 'src/assets/projects/2.webP',
+        imageurl: 'src/assets/2.webP',
         name: 'Tea Cozy / Flexbox learning',
         stack: 'HTML/CSS',
         gitlink: 'https://github.com/light-roast/TeaCozy/',

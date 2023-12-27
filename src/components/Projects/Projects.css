@@ -13,6 +13,7 @@
     height: 100%;
     flex-shrink: 0;
     min-width: 25rem;
+    max-width: 25rem;
     margin-bottom: 5rem;
     border-radius: 2%;
 }

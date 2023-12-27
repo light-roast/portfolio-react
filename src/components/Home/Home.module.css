@@ -89,9 +89,9 @@
     height: auto;
     border-radius: 50%;
     background-color: var(--mainColorL);
-    animation: levitate 4s ease-in-out infinite; /* Adjust the duration and timing function as needed */
-    margin-bottom: 20px; /* Space for the shadow */
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Shadow styling */
+    animation: levitate 4s ease-in-out infinite; 
+    margin-bottom: 20px; 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); 
   }
 
   article {
@@ -100,7 +100,7 @@
     background-color: var(--mainColor);
     width: 100%;
     display: flex;
-    flex-direction: row; /* Horizontal layout */
+    flex-direction: row; 
     justify-content: space-around;
     align-items: center;
     height: fit-content;
