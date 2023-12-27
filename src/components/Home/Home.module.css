@@ -9,7 +9,7 @@
     justify-content: space-around; 
     align-items: center;
     height: fit-content; 
-    max-width: 900px;
+    max-width: 1000px;
     
       }
 
@@ -87,7 +87,7 @@
   }
   
   .img {
-    width: 100%;
+    width: 105%;
     min-width: 60%;
     height: auto;
     border-radius: 50%;
@@ -113,7 +113,7 @@
   
   .sectionB{
     width: 40%;
-    max-width: 350px;
+    max-width: 400px;
 
   }
 
