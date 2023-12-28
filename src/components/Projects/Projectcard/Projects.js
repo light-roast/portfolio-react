@@ -4,6 +4,7 @@ import file3 from '../../../assets/3.webp';
 import file4 from '../../../assets/4.webp';
 import file5 from '../../../assets/5.webp';
 import file6 from '../../../assets/6.webp';
+import file7 from '../../../assets/7.webp'
 
 
 
@@ -31,6 +32,14 @@ const projects = [
         stack: 'React.',
         gitlink: 'https://github.com/light-roast/calculateageapp',
         livelink: 'https://calculate-your-real-age.netlify.app/'
+    },
+    {
+        id: 7,
+        imageurl: file7,
+        name: 'Yu-Gi-Oh! Card checker',
+        stack: 'Angular.',
+        gitlink: 'https://github.com/light-roast/proyectofinal-angular-yugioh',
+        livelink: 'https://proyectofinal-yugioh-card-checker.vercel.app/' 
     },
     {
         id: 2,
