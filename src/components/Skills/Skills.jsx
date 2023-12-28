@@ -10,6 +10,7 @@ function Skills() {
                 <div className={styles.skillIcon}><i className="fab fa-html5"></i></div>
                 <div className={styles.skillIcon}><i className="fab fa-css3"></i></div>
                 <div className={styles.skillIcon}><i className="fab fa-react"></i></div>
+                <div className={styles.skillIcon}><i className="fab fa-angular"></i></div>
                 <div className={styles.skillIcon}><i className="fab fa-node"></i></div>
                 <div className={styles.skillIcon}><h2 className={styles.express}>Express.js</h2></div>
                 <div className={styles.skillIcon}><i className="fas fa-database"></i></div>
