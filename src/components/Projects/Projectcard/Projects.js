@@ -37,7 +37,7 @@ const projects = [
         id: 7,
         imageurl: file7,
         name: 'Yu-Gi-Oh! Card checker',
-        stack: 'Angular.',
+        stack: 'Angular / YGOPRODeck API',
         gitlink: 'https://github.com/light-roast/proyectofinal-angular-yugioh',
         livelink: 'https://proyectofinal-yugioh-card-checker.vercel.app/' 
     },
