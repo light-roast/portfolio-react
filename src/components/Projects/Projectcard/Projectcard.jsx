@@ -23,7 +23,8 @@ function Projectcard({project}) {
                             <a id="four" href={project.gitlink} className="category">
                                 <i className="fab fa-github"></i><h4 style={h4Style}>GitHub</h4>.
                             </a>
-                            {project.livelink ? (<h4 id="two"><a  className="category" href={project.livelink}>Live site access.</a></h4>) : null}                          
+                            {project.livelink ? (<h4 id="two"><a  className="category" href={project.livelink}>Live site access.</a></h4>) : null} 
+                            {project.info ? (<h4 id="two" ><a className="category" href="https://pairxpensesapp.azurewebsites.net/">{project.info}</a></h4>) : null}                         
                         
                     </div>
                 </div>

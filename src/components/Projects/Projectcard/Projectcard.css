@@ -48,10 +48,14 @@ img {
     grid-column: 2/4;
     grid-row: 1/2;
     border-top: black solid 1px;
-    align-content:end;
+    align-content:center;
     text-align: center;
     border-bottom: black solid 1px;
     }
+
+#four i {
+    height: auto;
+}
 
 
 .cards {

@@ -4,13 +4,18 @@ import file3 from '../../../assets/3.webp';
 import file4 from '../../../assets/4.webp';
 import file5 from '../../../assets/5.webp';
 import file6 from '../../../assets/6.webp';
-import file7 from '../../../assets/7.webp'
+import file7 from '../../../assets/7.webp';
+import file8 from '../../../assets/8.webp';
+import file9 from '../../../assets/9.webp';
+import file10 from '../../../assets/10.webp';
+import file11 from '../../../assets/11.webp';
+import file12 from '../../../assets/12.webp';
 
 
 
 const projects = [
     {
-        id: 5,
+        id: 1,
         imageurl: file5,
         name: 'Jammming',
         stack: 'React / Spotify API',
@@ -18,7 +23,7 @@ const projects = [
         
     },
     {
-        id: 6,
+        id: 2,
         imageurl: file6,
         name: 'Ravenous',
         stack: 'React / Yelp API',
@@ -26,7 +31,23 @@ const projects = [
         
     },
     {
-        id: 1,
+        id: 3,
+        imageurl: file8,
+        name: 'PairXpenses(Front)',
+        stack: 'Blazor',
+        gitlink: 'https://github.com/light-roast/PairXpensesFS',
+        livelink: 'https://pairxpensesapp.azurewebsites.net/'
+    },
+    {
+        id: 4,
+        imageurl: file12,
+        name: 'PairXpenses(Back)',
+        stack: 'SQLite / EF / JWT',
+        gitlink: 'https://github.com/light-roast/PairExpensesAPI',
+        info: 'User: codyone - Pwd: codigofacilito123'
+    },
+    {
+        id: 5,
         imageurl: file1,
         name: 'Exact Age calculator app.',
         stack: 'React.',
@@ -34,7 +55,7 @@ const projects = [
         livelink: 'https://calculate-your-real-age.netlify.app/'
     },
     {
-        id: 7,
+        id: 6,
         imageurl: file7,
         name: 'Yu-Gi-Oh! Card checker',
         stack: 'Angular / YGOPRODeck API',
@@ -42,7 +63,29 @@ const projects = [
         livelink: 'https://proyectofinal-yugioh-card-checker.vercel.app/' 
     },
     {
-        id: 2,
+        id: 7,
+        imageurl: file9,
+        name: 'Publishing API',
+        stack: 'ExpressJS / SQLite',
+        gitlink: 'https://github.com/light-roast/X-Press-Publishing',
+
+    },
+    {
+        id: 8,
+        imageurl: file10,
+        name: 'Boss Machine',
+        stack: 'HTML / CSS / JS / ExpressJS',
+        gitlink: 'https://github.com/light-roast/X-Press-Publishing',
+    },
+    {
+        id: 9,
+        imageurl: file11,
+        name: 'Gold Medal Metrics',
+        stack: 'React / ExpressJS / SQLite',
+        gitlink: 'https://github.com/light-roast/GoldMedalMetrics',
+    },
+    {
+        id: 10,
         imageurl: file3,
         name: 'Todo list manager',
         stack: 'React.',
@@ -50,7 +93,7 @@ const projects = [
         livelink: 'https://todos-manager-lightroast.netlify.app/' 
     },
     {
-        id: 3,
+        id: 11,
         imageurl: file4,
         name: 'CRUD APP/JSON SERVER API',
         stack: 'React, JSON Server.',
@@ -58,14 +101,15 @@ const projects = [
  
     },
     {
-        id: 4,
+        id: 12,
         imageurl: file2,
         name: 'Tea Cozy / Flexbox learning',
         stack: 'HTML/CSS',
         gitlink: 'https://github.com/light-roast/TeaCozy/',
         livelink: 'https://light-roast.github.io/TeaCozy/'
+    },
 
-    }
+    
 
    
 ];
