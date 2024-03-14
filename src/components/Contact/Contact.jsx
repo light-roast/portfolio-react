@@ -15,6 +15,7 @@ function Contact({setNavLink}) {
   return (
     <>
       <h2 className={styles.contact}>Contact me!</h2>
+      <div className={styles.contenedor}>
       <form onSubmit={handleSubmit} className={styles.form}>
        <label htmlFor='name' className={styles.label}>Name:</label>
       <input
@@ -58,6 +59,7 @@ function Contact({setNavLink}) {
         Submit
       </button>
     </form>
+    </div>
     </>
   );
 }
