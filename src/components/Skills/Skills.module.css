@@ -15,9 +15,15 @@
     flex-wrap: wrap;
 }
 
+
+.boxIcon {
+    align-self: center;
+}
+
 .csharp {
   color: var(--mainColor);
   font-size: 3rem;
+  fill: var(--mainColor);
 }
 
 .express {
@@ -33,4 +39,5 @@
     font-size: 4rem;
     margin: 1rem;
     color: var(--mainColor);
+    align-self: center;
 }

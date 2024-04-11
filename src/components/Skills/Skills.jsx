@@ -1,4 +1,5 @@
 import styles from './Skills.module.css';
+import 'boxicons';
 function Skills() {
     return ( 
     <>
@@ -8,7 +9,7 @@ function Skills() {
                 <div className={styles.skillIcon}><i className="fab fa-js"></i></div>
                 <div className={styles.div}><h2 className={styles.csharp}>C# </h2></div>
                 <div className={styles.skillIcon}><i className="fab fa-python"></i></div>
-                <div className={styles.skillIcon}><h2 className={styles.csharp}>Ts</h2></div>
+                <div className={styles.skillIcon}><i className='bx bxl-typescript'></i></div>
                 <div className={styles.skillIcon}><i className="fab fa-html5"></i></div>
                 <div className={styles.skillIcon}><i className="fab fa-css3"></i></div>
                 <div className={styles.div}><h2 className={styles.csharp}>.NET</h2></div>
@@ -23,7 +24,8 @@ function Skills() {
                 <div className={styles.skillIcon}><i className="fa-brands fa-github"></i></div>
                 <div className={styles.skillIcon}><i className="fas fa-terminal"></i></div>
                 <div className={styles.div}><h2 className={styles.csharp}> JWT</h2></div> 
-                <div className={styles.skillIcon}><h2 className={styles.express}>Tailwind</h2></div>                             
+                <div className={styles.skillIcon}><i className='bx bxl-tailwind-css'></i></div>
+                <div className={styles.div}><h2 className={styles.express}> Blazor</h2></div>                              
             </div>
         </section>     
     </> 
