@@ -6,10 +6,11 @@ import PropTypes from 'prop-types';
 
 function Projects({setNavLink}) {
     useEffect(() => {
-        setNavLink('projects')
+        setNavLink('projects');
+        window.scrollTo(0, 0);
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
-    
+
     return (
         <section id="mainSection">
                 {
