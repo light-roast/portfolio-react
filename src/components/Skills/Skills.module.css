@@ -26,11 +26,6 @@
   fill: var(--mainColor);
 }
 
-.express {
-    font-size: 2rem; 
-    color: var(--mainColor);
-}
-
 .skills {
     font-size: 3.5rem; 
     color: var(--mainColor);
