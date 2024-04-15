@@ -29,7 +29,7 @@ function Home({setNavLink}) {
                 <section className={styles.firstSection}>
                     <h3>Hi, my name is </h3>
                     <h1>Daniel <span>Echeverri</span></h1>
-                    <h2>I&apos;m a Fullstack developer</h2>
+                    <h2>I&apos;m a full stack developer</h2>
                     <a className={styles.but} href="https://drive.google.com/file/d/1ya_VJkUKz_x8P1SQcczQJRQU-fCjTdes/view?usp=sharing" target="_blank" rel="noreferrer">
                         <button type="button">Download CV</button>
                     </a>
