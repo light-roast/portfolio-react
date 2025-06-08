@@ -13,12 +13,32 @@ import file12 from '../../../assets/12.webp';
 import file13 from '../../../assets/13.webp';
 import file14 from '../../../assets/14.webp';
 import file15 from '../../../assets/15.webp';
+import file16 from '../../../assets/16.webp';
+import file17 from '../../../assets/17.webp';
 
 
 
 const projects = [
     {
+        id: 0,
+        imageurl: file16,
+        name: 'FiloBooks(Front)',
+        stack: 'React',
+        gitlink: 'https://github.com/light-roast/FiloBooksFront',
+        livelink: 'https://filobooks.netlify.app/'
+        
+    },
+    {
         id: 1,
+        imageurl: file17,
+        name: 'FiloBooks(Back)',
+        stack: 'SQLite / EF-MVC / Firebase',
+        gitlink: 'https://github.com/light-roast/FiloBooks',
+        livelink: 'https://filobooks.netlify.app/'
+        
+    },
+    {
+        id: 2,
         imageurl: file5,
         name: 'Jammming',
         stack: 'React / Spotify API',
@@ -26,7 +46,7 @@ const projects = [
         
     },
     {
-        id: 2,
+        id: 3,
         imageurl: file6,
         name: 'Ravenous',
         stack: 'React / Yelp API',
@@ -34,7 +54,7 @@ const projects = [
         
     },
     {
-        id: 3,
+        id: 4,
         imageurl: file8,
         name: 'PairXpenses(Front)',
         stack: 'Blazor',
@@ -42,7 +62,7 @@ const projects = [
         livelink: 'https://pairxpensesapp.azurewebsites.net/'
     },
     {
-        id: 4,
+        id: 5,
         imageurl: file12,
         name: 'PairXpenses(Back)',
         stack: 'SQLite / EF-MVC / JWT',
@@ -50,7 +70,7 @@ const projects = [
         info: 'User: codyone - Pwd: codigofacilito123'
     },
     {
-        id: 5,
+        id: 6,
         imageurl: file1,
         name: 'Exact Age calculator app.',
         stack: 'React.',
@@ -58,7 +78,7 @@ const projects = [
         livelink: 'https://calculate-your-real-age.netlify.app/'
     },
     {
-        id: 6,
+        id: 7,
         imageurl: file7,
         name: 'Yu-Gi-Oh! Card checker',
         stack: 'Angular / YGOPRODeck API',
@@ -66,7 +86,7 @@ const projects = [
         livelink: 'https://proyectofinal-yugioh-card-checker.vercel.app/' 
     },
     {
-        id: 7,
+        id: 8,
         imageurl: file13,
         name: 'Tailwind Landing Page',
         stack: 'HTML / Tailwind',
@@ -74,7 +94,7 @@ const projects = [
         livelink: 'https://light-roast.github.io/landing-tailwind/' 
     },
     {
-        id: 8,
+        id: 9,
         imageurl: file14,
         name: 'Social Dashboard - D/L Theme',
         stack: 'HTML / Tailwind',
@@ -82,7 +102,7 @@ const projects = [
         livelink: 'https://light-roast.github.io/Social-media-dashboard---Tailwind/' 
     },
     {
-        id: 9,
+        id: 10,
         imageurl: file15,
         name: 'FakePortfolio Tailwind',
         stack: 'HTML / Tailwind',
@@ -90,7 +110,7 @@ const projects = [
         livelink: 'https://light-roast.github.io/portfolio-tailwind/' 
     },
     {
-        id: 10,
+        id: 11,
         imageurl: file9,
         name: 'Publishing API',
         stack: 'ExpressJS / SQLite',
@@ -98,21 +118,21 @@ const projects = [
 
     },
     {
-        id: 11,
+        id: 12,
         imageurl: file10,
         name: 'Boss Machine',
         stack: 'HTML / CSS / JS / ExpressJS',
         gitlink: 'https://github.com/light-roast/X-Press-Publishing',
     },
     {
-        id: 12,
+        id: 13,
         imageurl: file11,
         name: 'Gold Medal Metrics',
         stack: 'React / ExpressJS / SQLite',
         gitlink: 'https://github.com/light-roast/GoldMedalMetrics',
     },
     {
-        id: 13,
+        id: 14,
         imageurl: file3,
         name: 'Todo list manager',
         stack: 'React.',
@@ -120,7 +140,7 @@ const projects = [
         livelink: 'https://todos-manager-lightroast.netlify.app/' 
     },
     {
-        id: 14,
+        id: 15,
         imageurl: file4,
         name: 'CRUD APP/JSON SERVER API',
         stack: 'React, JSON Server.',
@@ -128,7 +148,7 @@ const projects = [
  
     },
     {
-        id: 15,
+        id: 16,
         imageurl: file2,
         name: 'Tea Cozy / Flexbox learning',
         stack: 'HTML/CSS',
