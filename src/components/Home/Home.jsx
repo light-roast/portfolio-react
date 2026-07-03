@@ -30,7 +30,7 @@ function Home({setNavLink}) {
                     <h3>Hi, my name is </h3>
                     <h1>Daniel <span>Echeverri</span></h1>
                     <h2>I&apos;m a full stack developer</h2>
-                    <a className={styles.but} href="https://drive.google.com/drive/folders/1RhQZtj9dsKrUDAZ0sujqmR07wimo59Wy?usp=sharing" target="_blank" rel="noreferrer">
+                    <a className={styles.but} href="/resume.pdf" target="_blank" rel="noreferrer">
                         <button type="button">Download CV</button>
                     </a>
                 </section>
@@ -46,7 +46,7 @@ function Home({setNavLink}) {
                 <div className={styles.sectionA}>
                     <h1><u>About me</u></h1>
                     
-<h3>I am a certified professional in Front-end Engineering. I have also obtained certifications in various technologies that expand my qualifications as a full-stack web developer. I am a dedicated individual who enjoys learning new things, excels as a team player, and demonstrates strong organizational skills and responsibility. On this portfolio website, you can find an overview of all the <u className={styles.u} onClick={handleClick}>projects</u> I have completed. If you need to contact me, you can write to me <u className={styles.u} onClick={handleClickC}>here</u> or at my email address.</h3>
+<h3>I am a Full Stack Developer with 2 years of experience, specializing in backend development with .NET. I have a proven track record of delivering scalable solutions, optimizing performance, and modernizing legacy systems. I am passionate about clean architecture, Domain-Driven Design, and continuous learning. On this portfolio website, you can find an overview of all the personal <u className={styles.u} onClick={handleClick}>projects</u> I have completed. If you need to contact me, you can write to me <u className={styles.u} onClick={handleClickC}>here</u> or at my email address.</h3>
                 </div>
                 </section>
             </article>
