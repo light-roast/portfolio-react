@@ -133,7 +133,6 @@
 
   .sectionA h3 {
     color: var(--textColor);
-    text-align: justify;
     padding: 2rem;    
     margin: .7rem;
     font-size: 2rem;
